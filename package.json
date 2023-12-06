@@ -12,7 +12,8 @@
     "lint": "ng lint",
     "commitlint": "commitlint --edit",
     "prepare": "husky install",
-    "cm": "cz"
+    "cz": "cz",
+    "add:cz": "git add --all && cz"
   },
   "private": true,
   "dependencies": {
@@ -64,5 +65,6 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "license": "MIT"
 }
