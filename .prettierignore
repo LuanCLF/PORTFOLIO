@@ -1,0 +1,6 @@
+.angular
+.husky
+.vscode
+dist
+package.json
+package-lock.json
