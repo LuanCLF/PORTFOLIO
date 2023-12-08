@@ -8,6 +8,5 @@ import { MyProjectsComponent } from './my-projects/my-projects.component';
   standalone: true,
   imports: [GeneralInformationComponent, AboutComponent, MyProjectsComponent],
   template: `<app-general-information /><app-about /><app-my-projects />`,
-  styleUrl: './body.component.scss',
 })
 export class BodyComponent {}
