@@ -4,6 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-general-information',
   standalone: true,
   imports: [],
-  template: ` <p>general-information works!</p> `,
+  template: `<section
+    class="tw-bg-teal-900 tw-h-screen tw-flex tw-items-center tw-justify-center tw-text-3xl tw-font-extrabold"
+  >
+    infos gerais
+  </section>`,
 })
 export class GeneralInformationComponent {}
