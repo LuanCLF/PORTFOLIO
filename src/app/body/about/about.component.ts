@@ -4,6 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-about',
   standalone: true,
   imports: [],
-  template: ` <p>about works!</p> `,
+  template: `
+    <section
+      class="tw-bg-amber-500 tw-h-screen tw-flex tw-items-center tw-justify-center tw-text-3xl tw-font-extrabold"
+    >
+      sobre
+    </section>
+  `,
 })
 export class AboutComponent {}
