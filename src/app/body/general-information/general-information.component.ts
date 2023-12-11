@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `<section
-    class="tw-bg-teal-900 tw-h-screen tw-flex tw-items-center tw-justify-center tw-text-3xl tw-font-extrabold"
+    class=" tw-h-screen tw-flex tw-items-center tw-justify-center tw-text-3xl tw-font-extrabold"
   >
     infos gerais
   </section>`,

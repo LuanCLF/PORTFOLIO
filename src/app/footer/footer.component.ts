@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <section
-      class="tw-bg-green-500 tw-h-12 tw-w-full tw-flex tw-items-center tw-justify-center tw-text-3xl tw-font-extrabold tw-fixed tw-bottom-0"
+      id="my-contact"
+      class="tw-h-12 tw-w-full tw-flex tw-items-center tw-justify-center tw-text-3xl tw-font-extrabold tw-bottom-0"
     >
       rodapé
     </section>

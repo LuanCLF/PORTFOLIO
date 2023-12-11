@@ -5,9 +5,12 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: ` <header
-    class="tw-bg-zinc-600 tw-h-16 tw-w-full tw-flex tw-items-center tw-justify-center tw-text-3xl tw-font-extrabold tw-sticky tw-top-0"
+    class="tw-bg-transparent tw-h-fit tw-w-full  tw-font-extrabold tw-sticky tw-top-0"
   >
-    CABEÇALHO
+    <nav class="tw-text-xl tw-flex tw-items-center tw-justify-end tw-gap-5 tw-p-5 tw-mr-5">
+      <a href="#my-projects">Projetos</a>
+      <a href="#my-contact">Contato</a>
+    </nav>
   </header>`,
 })
 export class HeaderComponent {}
