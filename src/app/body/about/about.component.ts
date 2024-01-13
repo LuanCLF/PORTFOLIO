@@ -5,10 +5,10 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <section
-      class="tw-bg-amber-500 tw-h-screen tw-flex tw-items-center tw-justify-center tw-text-3xl tw-font-extrabold"
-    >
-      sobre
+    <section>
+      <picture>
+        <img src="assets/perfil.png" alt="Minha foto de perfil" />
+      </picture>
     </section>
   `,
 })

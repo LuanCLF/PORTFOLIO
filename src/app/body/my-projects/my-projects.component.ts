@@ -4,12 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-my-projects',
   standalone: true,
   imports: [],
-  template: `
-    <section
-      class="tw-bg-fuchsia-900  tw-h-screen tw-flex tw-items-center tw-justify-center tw-text-3xl tw-font-extrabold"
-    >
-      meus projetos
-    </section>
-  `,
+  template: ` <section id="my-projects">meus projetos</section> `,
 })
 export class MyProjectsComponent {}

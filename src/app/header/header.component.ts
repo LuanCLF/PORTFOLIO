@@ -4,10 +4,11 @@ import { Component } from '@angular/core';
   selector: 'app-header',
   standalone: true,
   imports: [],
-  template: ` <header
-    class="tw-bg-zinc-600 tw-h-16 tw-w-full tw-flex tw-items-center tw-justify-center tw-text-3xl tw-font-extrabold tw-sticky tw-top-0"
-  >
-    CABEÇALHO
+  template: ` <header>
+    <nav>
+      <a href="#my-projects">Projetos</a>
+      <a href="#my-contact">Contato</a>
+    </nav>
   </header>`,
 })
 export class HeaderComponent {}
